@@ -1,0 +1,6 @@
+CWB-AC3118BE-7C3D-481E-A522-113DA465F02F
+
+MaxT 最高溫度
+MinT 最低溫度
+CI 舒適度
+PoP 降雨機率
