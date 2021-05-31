@@ -5,11 +5,11 @@
 # https://www.twilio.com/console todo left can get informations we need.
 '''
 from twilio.rest import Client
-accountSID = 'AC58188c049628a3c82cf429a05558bd83'
-authToken = "b4d4195cf24d9ab9b0a83d663ac8975a"
+accountSID = 'twilioaccountSID'
+authToken = "twilioauthToken"
 twilioCli = Client('accountSID, authToken)
-myCellPhone = '+886921965321
-myTwilioNumber = '+12166090979'
+myCellPhone = 'phone_number'
+myTwilioNumber = 'twillo_phone_number'
 message = twilioCli.messages.create(body="今天也要好好生活喔", from_ = myTwilioNumber, to=myCellPhone)
 '''
 
@@ -22,7 +22,7 @@ textMyself.textmyself("再忙再累，也請不要忘記提升自己生活方面
 # after received the message, message.date_sent will show None
 import requests
 
-api_address = "https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=CWB-AC3118BE-7C3D-481E-A522-113DA465F02F&format=JSON&locationName=%E5%98%89%E7%BE%A9%E7%B8%A3"
+api_address = "You can get the api address from Central Weather Bureau."
 json_data = requests.get(api_address).json()
 weather = ['0:00-6:00', '6:00-18:00', '18:00-tommorrow6:00']
 for i in range(3):
