@@ -1,6 +1,6 @@
 import requests
 
-api_address = "https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=CWB-AC3118BE-7C3D-481E-A522-113DA465F02F&format=JSON&locationName=%E5%98%89%E7%BE%A9%E7%B8%A3"
+api_address = "You have to google for the api from Central Weather Bureau"
 json_data = requests.get(api_address).json()
 # = json_data['records']['location'][0]['weatherElement'][0]['time'][0]["parameter"]["parameterName"]#["weatherElement"]
 # for i in range(3):
