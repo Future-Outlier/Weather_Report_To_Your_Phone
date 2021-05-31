@@ -5,11 +5,10 @@
 # import needed module
 from twilio.rest import Client
 # Preset values:
-accountSID = 'AC58188c049628a3c82cf429a05558bd83'
-authToken = "b4d4195cf24d9ab9b0a83d663ac8975a"
-twilioNumber1 = '+12166090979'
-myNumber1 = '+886921965321'
-myNumber2 = '+886936562182'
+accountSID = 'twilioaccountSID'
+authToken = "twilioaccountSID"
+twilioNumber1 = 'twilioNumber1'
+myNumber1 = 'myNumber1'
 
 def textmyself(message):
     twilioCli = Client(accountSID, authToken)
