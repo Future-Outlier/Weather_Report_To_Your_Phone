@@ -3,7 +3,7 @@
 ## Things I do in this project
 ### 1.Learn to scrape weather bureau api 
 
-### 2.Parse the json file
+### 2.Parse the json file from weather bureau
 
 ### 3.Send message to phone by python Twilio module
 
